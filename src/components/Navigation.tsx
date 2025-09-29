@@ -28,6 +28,9 @@ const Navigation = () => {
             <a href="#services" className="text-foreground hover:text-primary transition-colors">
               Services
             </a>
+            <a href="/courses" className="text-foreground hover:text-primary transition-colors">
+              Courses
+            </a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
               About
             </a>
@@ -75,6 +78,13 @@ const Navigation = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
+              </a>
+              <a 
+                href="/courses" 
+                className="text-foreground hover:text-primary transition-colors px-2 py-1"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Courses
               </a>
               <a 
                 href="#about" 
