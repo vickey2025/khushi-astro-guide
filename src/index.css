@@ -2,39 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Astro Khushi Design System - Traditional Indian Astrology Theme
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 45 15% 97%;
+    --foreground: 20 14% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 45 20% 98%;
+    --card-foreground: 20 14% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 45 20% 98%;
+    --popover-foreground: 20 14% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep maroon/red primary inspired by traditional astrology */
+    --primary: 0 75% 28%;
+    --primary-foreground: 45 20% 98%;
+    --primary-light: 0 65% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Golden secondary colors */
+    --secondary: 40 85% 55%;
+    --secondary-foreground: 20 14% 15%;
+    --secondary-muted: 40 45% 85%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 40 25% 92%;
+    --muted-foreground: 20 14% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent gold */
+    --accent: 45 90% 60%;
+    --accent-foreground: 20 14% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 45 20% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 0 75% 28%;
+
+    /* Custom astrology theme colors */
+    --hero-gradient-start: 0 75% 28%;
+    --hero-gradient-end: 20 85% 20%;
+    --divine-gold: 45 90% 55%;
+    --sacred-red: 0 75% 28%;
+    --wisdom-amber: 40 85% 65%;
+    
+    /* Shadows with traditional feel */
+    --shadow-divine: 0 20px 40px hsl(0 75% 28% / 0.2);
+    --shadow-elegant: 0 10px 30px hsl(40 85% 55% / 0.15);
 
     --radius: 0.5rem;
 
@@ -56,33 +72,44 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 20 25% 8%;
+    --foreground: 45 20% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 20 25% 10%;
+    --card-foreground: 45 20% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 20 25% 10%;
+    --popover-foreground: 45 20% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 75% 55%;
+    --primary-foreground: 45 20% 95%;
+    --primary-light: 0 65% 65%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 40 65% 45%;
+    --secondary-foreground: 45 20% 95%;
+    --secondary-muted: 40 25% 25%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 20 15% 18%;
+    --muted-foreground: 40 15% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 45 70% 50%;
+    --accent-foreground: 20 25% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 45 20% 95%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 20 15% 20%;
+    --input: 20 15% 20%;
+    --ring: 0 75% 55%;
+    
+    --hero-gradient-start: 0 75% 35%;
+    --hero-gradient-end: 20 65% 15%;
+    --divine-gold: 45 70% 50%;
+    --sacred-red: 0 75% 45%;
+    --wisdom-amber: 40 65% 55%;
+    
+    --shadow-divine: 0 20px 40px hsl(0 75% 15% / 0.4);
+    --shadow-elegant: 0 10px 30px hsl(40 65% 25% / 0.3);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +127,41 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Custom gradients for astrology theme */
+  .gradient-hero {
+    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)), hsl(var(--hero-gradient-end)));
+  }
+  
+  .gradient-divine {
+    background: linear-gradient(135deg, hsl(var(--sacred-red)), hsl(var(--divine-gold)));
+  }
+  
+  .gradient-wisdom {
+    background: linear-gradient(135deg, hsl(var(--wisdom-amber)), hsl(var(--secondary)));
+  }
+  
+  /* Custom text gradients */
+  .text-gradient-gold {
+    background: linear-gradient(135deg, hsl(var(--divine-gold)), hsl(var(--wisdom-amber)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Smooth animations */
+  .transition-divine {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Custom shadows */
+  .shadow-divine {
+    box-shadow: var(--shadow-divine);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
   }
 }
