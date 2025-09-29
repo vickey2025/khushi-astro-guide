@@ -8,56 +8,48 @@ const services = [
     icon: Star,
     title: 'Birth Chart Reading',
     description: 'Complete analysis of your birth chart (Kundali) with planetary positions and their effects on your life.',
-    price: '₹999',
     duration: '45 mins'
   },
   {
     icon: Compass,
     title: 'Career Guidance',
     description: 'Discover your ideal career path and professional success through astrological insights.',
-    price: '₹1,499',
     duration: '60 mins'
   },
   {
     icon: Heart,
     title: 'Love & Relationships',
     description: 'Find compatibility, resolve relationship issues, and discover your soulmate through Vedic matching.',
-    price: '₹1,299',
     duration: '50 mins'
   },
   {
     icon: Coins,
     title: 'Financial Astrology',
     description: 'Get insights on wealth, investments, and financial growth based on planetary influences.',
-    price: '₹1,199',
     duration: '45 mins'
   },
   {
     icon: Baby,
     title: 'Child Astrology',
     description: 'Name suggestions, future predictions, and guidance for your child\'s bright future.',
-    price: '₹899',
     duration: '40 mins'
   },
   {
     icon: HomeIcon,
     title: 'Vastu Consultation',
     description: 'Home and office Vastu guidance to bring positive energy and prosperity.',
-    price: '₹1,999',
     duration: '75 mins'
   },
   {
     icon: Briefcase,
     title: 'Business Astrology',
     description: 'Launch dates, partnership compatibility, and business growth strategies.',
-    price: '₹2,499',
     duration: '90 mins'
   },
   {
     icon: Clock,
     title: 'Muhurat Selection',
     description: 'Find the most auspicious time for important life events and ceremonies.',
-    price: '₹799',
     duration: '30 mins'
   }
 ];
@@ -105,8 +97,7 @@ const ServicesSection = () => {
                     </p>
                   </div>
                   
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-xl font-bold text-primary">{service.price}</span>
+                  <div className="flex items-center justify-end mb-4">
                     <span className="text-sm text-muted-foreground bg-muted px-2 py-1 rounded">
                       {service.duration}
                     </span>
