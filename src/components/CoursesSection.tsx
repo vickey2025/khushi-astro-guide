@@ -13,7 +13,7 @@ const courses = [
     rating: 4.8,
     level: 'Beginner',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const courses = [
     rating: 4.9,
     level: 'Beginner',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const courses = [
     rating: 4.7,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const courses = [
     rating: 4.8,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const courses = [
     rating: 4.9,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ const courses = [
     rating: 4.6,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 7,
@@ -79,7 +79,7 @@ const courses = [
     rating: 4.8,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 8,
@@ -90,7 +90,7 @@ const courses = [
     rating: 4.7,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 9,
@@ -101,7 +101,7 @@ const courses = [
     rating: 4.9,
     level: 'Beginner',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 10,
@@ -112,7 +112,7 @@ const courses = [
     rating: 4.8,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 11,
@@ -123,7 +123,7 @@ const courses = [
     rating: 4.6,
     level: 'Beginner',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 12,
@@ -134,7 +134,7 @@ const courses = [
     rating: 4.7,
     level: 'Beginner',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 13,
@@ -145,7 +145,7 @@ const courses = [
     rating: 4.8,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 14,
@@ -156,7 +156,7 @@ const courses = [
     rating: 4.9,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 15,
@@ -167,7 +167,7 @@ const courses = [
     rating: 4.8,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 16,
@@ -178,7 +178,7 @@ const courses = [
     rating: 4.9,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 17,
@@ -189,7 +189,7 @@ const courses = [
     rating: 4.7,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 18,
@@ -200,7 +200,7 @@ const courses = [
     rating: 4.6,
     level: 'Advanced',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 19,
@@ -211,7 +211,7 @@ const courses = [
     rating: 4.8,
     level: 'Beginner',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   },
   {
     id: 20,
@@ -222,7 +222,7 @@ const courses = [
     rating: 4.9,
     level: 'Intermediate',
     videoId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://new-git-main-abhinavs-projects-735e77d8.vercel.app/image1.png'
+    thumbnail: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1045,fit=crop,trim=0;1043.4522821576763;0;697.6929460580913/A3QlKPKKE7ulbQOy/img_9143-mxB21LNaoOSRk9jZ.JPG'
   }
 ];
 
