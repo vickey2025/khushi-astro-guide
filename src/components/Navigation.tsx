@@ -22,19 +22,19 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-foreground hover:text-primary transition-colors">
+            <a href="/" className="text-foreground hover:text-primary transition-colors">
               Home
             </a>
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">
+            <a href="/services" className="text-foreground hover:text-primary transition-colors">
               Services
             </a>
             <a href="/courses" className="text-foreground hover:text-primary transition-colors">
               Courses
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            <a href="/about" className="text-foreground hover:text-primary transition-colors">
               About
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+            <a href="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </a>
             <div className="flex items-center space-x-2">
@@ -66,14 +66,14 @@ const Navigation = () => {
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col space-y-4">
               <a 
-                href="#home" 
+                href="/" 
                 className="text-foreground hover:text-primary transition-colors px-2 py-1"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
               <a 
-                href="#services" 
+                href="/services" 
                 className="text-foreground hover:text-primary transition-colors px-2 py-1"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -87,14 +87,14 @@ const Navigation = () => {
                 Courses
               </a>
               <a 
-                href="#about" 
+                href="/about" 
                 className="text-foreground hover:text-primary transition-colors px-2 py-1"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </a>
               <a 
-                href="#contact" 
+                href="/contact" 
                 className="text-foreground hover:text-primary transition-colors px-2 py-1"
                 onClick={() => setIsMenuOpen(false)}
               >
