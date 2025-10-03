@@ -1,7 +1,8 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Award, BookOpen, Users, Star, CheckCircle } from 'lucide-react';
+import { Award, BookOpen, Users, Star, CheckCircle, Youtube } from 'lucide-react';
+import khushiPortrait from '@/assets/khushi-portrait.jpg';
 
 const achievements = [
   { icon: Award, text: 'Certified Vedic Astrologer', color: 'text-divine-gold' },
@@ -25,6 +26,36 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Profile Image Section */}
+        <div className="text-center mb-16">
+          <div className="relative inline-block">
+            <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-divine">
+              <img 
+                src={khushiPortrait} 
+                alt="Khushi - Vedic Astrologer" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-card border border-border rounded-full px-4 py-1 shadow-elegant">
+              <div className="flex items-center space-x-1">
+                <Star className="w-4 h-4 text-divine-gold fill-divine-gold" />
+                <span className="text-sm font-semibold">Khushi</span>
+              </div>
+            </div>
+          </div>
+          <a 
+            href="https://www.youtube.com/@KhushiAstrologer" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block mt-6"
+          >
+            <Button variant="outline" className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-divine">
+              <Youtube className="w-5 h-5 mr-2" />
+              Visit YouTube Channel
+            </Button>
+          </a>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
           <div>
